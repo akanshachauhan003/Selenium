@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NaukriAutomation">
+	<test name="exam">
+		<!-- <packages> <package name="t1"></package> <package name="t2"></package> 
+			</packages> -->
+
+		<!-- <classes> <class name="t1.TExample"></class> </classes> -->
+
+		<classes>
+			<class name="com.examples.testngex.TExample">
+				<methods>
+					<exclude name="test2"></exclude>
+				</methods>
+			</class>
+			<class name="com.examples.testngex.TExample2">
+			</class>
+		</classes>
+
+	</test>
+</suite>
