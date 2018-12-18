@@ -23,6 +23,8 @@ public class OpenCart2 {
 		password("1234","3456");
 		}
 	
+	
+	
 	 public void personalDetails(String firstName, String LastName, String email, String telephone ) {
 		 driver.findElement(By.xpath("//*[@id=\"input-firstname\"]")).sendKeys(firstName);
 		 driver.findElement(By.xpath("//*[@id=\"input-lastname\"]")).sendKeys(LastName);
