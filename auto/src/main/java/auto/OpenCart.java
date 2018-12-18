@@ -48,20 +48,23 @@ public void launchBrowser(String browser) {
 		select.selectByVisibleText("Name (Z - A)");
 		actions.moveToElement(ele).build().perform();
 		driver.findElement(By.xpath("//*[@id=\"input-sort\"]")).click();
+		
+		WebElement abc = driver.findElement(By.xpath("//*[@id=\"content\"]/div[3]/div[1]/div/div[1]/a/img"));
+		abc.click();
+		
+		
      }
+     
 		
 		public void samsung() {
-		
-	    driver.findElement(By.xpath("//*[@id=\"content\"]/div[3]/div[1]/div/div[2]/div[1]/h4/a")).click();
-		driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/h1"));
+			
+	        driver.findElement(By.xpath("//*[@id=\"content\"]/div[3]/div[1]/div/div[1]/a/img")).click();
+		    driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/h1"));
 		
      }
 		
 		
-		
-		
-		
-    }
+		}
 		
 		
     

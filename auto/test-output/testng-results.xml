@@ -2,68 +2,54 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="89" started-at="2018-12-03T02:09:21Z" finished-at="2018-12-03T02:09:21Z">
+  <suite name="NaukriAutomation" duration-ms="192" started-at="2018-12-15T00:16:28Z" finished-at="2018-12-15T00:16:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="89" started-at="2018-12-03T02:09:21Z" finished-at="2018-12-03T02:09:21Z">
-      <class name="t1.TExample">
-        <test-method status="PASS" signature="bc()[pri:0, instance:t1.TExample@47c62251]" name="bc" is-config="true" duration-ms="24" started-at="2018-12-03T02:09:21Z" finished-at="2018-12-03T02:09:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bc -->
-        <test-method status="PASS" signature="bf()[pri:0, instance:t1.TExample@47c62251]" name="bf" is-config="true" duration-ms="0" started-at="2018-12-03T02:09:21Z" finished-at="2018-12-03T02:09:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bf -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:t1.TExample@47c62251]" name="test1" duration-ms="9" started-at="2018-12-03T02:09:21Z" finished-at="2018-12-03T02:09:21Z">
+    <test name="exam" duration-ms="192" started-at="2018-12-15T00:16:28Z" finished-at="2018-12-15T00:16:28Z">
+      <class name="t1.Example1">
+        <test-method status="PASS" signature="test1()[pri:0, instance:t1.Example1@5c3bd550]" name="test1" duration-ms="21" started-at="2018-12-15T00:16:28Z" finished-at="2018-12-15T00:16:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="af()[pri:0, instance:t1.TExample@47c62251]" name="af" is-config="true" duration-ms="0" started-at="2018-12-03T02:09:21Z" finished-at="2018-12-03T02:09:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- af -->
-        <test-method status="PASS" signature="bf()[pri:0, instance:t1.TExample@47c62251]" name="bf" is-config="true" duration-ms="2" started-at="2018-12-03T02:09:21Z" finished-at="2018-12-03T02:09:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bf -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:t1.TExample@47c62251]" name="test2" duration-ms="2" started-at="2018-12-03T02:09:21Z" finished-at="2018-12-03T02:09:21Z">
+        <test-method status="PASS" signature="test2(java.lang.String)[pri:0, instance:t1.Example1@5c3bd550]" name="test2" duration-ms="12" started-at="2018-12-15T00:16:28Z" finished-at="2018-12-15T00:16:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akansha]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="af()[pri:0, instance:t1.TExample@47c62251]" name="af" is-config="true" duration-ms="1" started-at="2018-12-03T02:09:21Z" finished-at="2018-12-03T02:09:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- af -->
-        <test-method status="PASS" signature="bf()[pri:0, instance:t1.TExample@47c62251]" name="bf" is-config="true" duration-ms="0" started-at="2018-12-03T02:09:21Z" finished-at="2018-12-03T02:09:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bf -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:t1.TExample@47c62251]" name="test3" duration-ms="3" started-at="2018-12-03T02:09:21Z" finished-at="2018-12-03T02:09:21Z">
+        <test-method status="PASS" signature="test3(java.lang.String, java.lang.String)[pri:0, instance:t1.Example1@5c3bd550]" name="test3" duration-ms="12" started-at="2018-12-15T00:16:28Z" finished-at="2018-12-15T00:16:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akansha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[akansha123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="af()[pri:0, instance:t1.TExample@47c62251]" name="af" is-config="true" duration-ms="1" started-at="2018-12-03T02:09:21Z" finished-at="2018-12-03T02:09:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- af -->
-        <test-method status="PASS" signature="bf()[pri:0, instance:t1.TExample@47c62251]" name="bf" is-config="true" duration-ms="0" started-at="2018-12-03T02:09:21Z" finished-at="2018-12-03T02:09:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bf -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:t1.TExample@47c62251]" name="test4" duration-ms="3" started-at="2018-12-03T02:09:21Z" finished-at="2018-12-03T02:09:21Z">
+        <test-method status="PASS" signature="test4(java.lang.String)[pri:0, instance:t1.Example1@5c3bd550]" name="test4" duration-ms="21" started-at="2018-12-15T00:16:28Z" finished-at="2018-12-15T00:16:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="af()[pri:0, instance:t1.TExample@47c62251]" name="af" is-config="true" duration-ms="1" started-at="2018-12-03T02:09:21Z" finished-at="2018-12-03T02:09:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- af -->
-        <test-method status="PASS" signature="ac()[pri:0, instance:t1.TExample@47c62251]" name="ac" is-config="true" duration-ms="0" started-at="2018-12-03T02:09:21Z" finished-at="2018-12-03T02:09:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ac -->
-      </class> <!-- t1.TExample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- t1.Example1 -->
+    </test> <!-- exam -->
+  </suite> <!-- NaukriAutomation -->
 </testng-results>

@@ -41,7 +41,7 @@ public class PetClinic2 {
 	
 	@After
 	public void tearDown() {
-		driver.close();
+		//driver.close();
 	}
 	
 	@Test
@@ -64,7 +64,7 @@ public class PetClinic2 {
 	public void findOwners(String owner) {
 		driver.findElement(By.xpath("//a[@title='find owners']")).click();
 		By by = By.xpath("//input[@id='lastName']");
-		driver.findElement(by).sendKeys(owner);;
+		driver.findElement(by).sendKeys(owner);
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 	}
 	

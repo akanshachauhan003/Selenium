@@ -1,5 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="NaukriAutomation">
+
+	<listeners>
+		<listener class-name="com.slokam.opencart.commons.listeners.CustomListeners"></listener>
+	</listeners>
+	<parameter name="user" value="akansha"></parameter>
+	<parameter name="pass" value="akansha123"></parameter>
+	<parameter name="browser" value="chrome"></parameter>
 	<test name="exam">
 		<!-- <packages> <package name="t1"></package> <package name="t2"></package> 
 			</packages> -->
@@ -7,12 +14,7 @@
 		<!-- <classes> <class name="t1.TExample"></class> </classes> -->
 
 		<classes>
-			<class name="com.examples.testngex.TExample">
-				<methods>
-					<exclude name="test2"></exclude>
-				</methods>
-			</class>
-			<class name="com.examples.testngex.TExample2">
+			<class name="t1.Example1">
 			</class>
 		</classes>
 

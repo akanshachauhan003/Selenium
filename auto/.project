@@ -20,4 +20,16 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/test/resources/Login.xls</name>
+			<type>1</type>
+			<location>C:/Users/Akansha/git/Selenium/auto/src/test/resources/Login.xls</location>
+		</link>
+		<link>
+			<name>src/test/resources/Login.xlsx</name>
+			<type>1</type>
+			<location>C:/Users/Akansha/git/Selenium/auto/src/test/resources/Login.xlsx</location>
+		</link>
+	</linkedResources>
 </projectDescription>
